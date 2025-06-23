@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.room.rxjava2)
     testImplementation(libs.androidx.room.testing)
+
     testImplementation(kotlin("test"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
@@ -97,6 +98,7 @@ dependencies {
     implementation(libs.androidx.fragment)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.material)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx.v261)
 
     // Testing
     testImplementation(libs.junit)
